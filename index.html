@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Jogo da Cobra | Tales Oliveira</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>🐍 Jogo da Cobra 🐍</h1>
+    
+    <!-- Menu  -->
+    <div class="menu">
+        <button id="startBtn" class="btn">INICIAR JOGO</button>
+        <div class="speed-selector">
+            <label for="speed">VELOCIDADE:</label>
+            <select id="speed">
+                <option value="150">LENTO</option>
+                <option value="100" selected>MÉDIO</option>
+                <option value="60">RÁPIDO</option>
+                <option value="30">MUITO RÁPIDO</option>
+            </select>
+        </div>
+    </div>
+
+    <!-- Área do jogo -->
+    <div class="game-container" style="display: none;">
+        <canvas id="gameCanvas" width="400" height="400"></canvas>
+        <p class="score-text">PONTUAÇÃO: <span id="score">0</span></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
