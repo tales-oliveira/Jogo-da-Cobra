@@ -10,9 +10,22 @@ Projeto antigo do clássico jogo da cobra, foi desenvolvido utilizando as lingua
 
 ### Menu
 
-O menu contém as instruções de jogo e um seletor de dificuldade
+O menu contém as instruções de jogo e um seletor de dificuldade, que altera a velocidade de movimento da cobra.
+
+<p align="center">
+  <img src="Imagens/cobra1.jpg" width="400">
+</p>
 
 ### Gameplay
 
 Tela mostrando o jogo, com a pontuação atual ao lado (Cada comida vale 10 pontos).
 
+<p align="center">
+  <img src="Imagens/cobra2.jpg" width="400">
+</p>
+
+## Para fazer
+
+1. Alinhar melhor a pontuação com a área de jogo;
+2. Adicionar "power ups";
+3. Salvar recorde de pontuação.
